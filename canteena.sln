@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "canteena.Android", "canteena.Android\canteena.Android.csproj", "{64C1D49D-96B4-42B6-A814-461923C6964A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "canteena", "canteena\canteena.csproj", "{869D28A7-2408-4807-AFBF-3F984E6D21BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64C1D49D-96B4-42B6-A814-461923C6964A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64C1D49D-96B4-42B6-A814-461923C6964A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64C1D49D-96B4-42B6-A814-461923C6964A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{64C1D49D-96B4-42B6-A814-461923C6964A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64C1D49D-96B4-42B6-A814-461923C6964A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64C1D49D-96B4-42B6-A814-461923C6964A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{869D28A7-2408-4807-AFBF-3F984E6D21BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{869D28A7-2408-4807-AFBF-3F984E6D21BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{869D28A7-2408-4807-AFBF-3F984E6D21BC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{869D28A7-2408-4807-AFBF-3F984E6D21BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{869D28A7-2408-4807-AFBF-3F984E6D21BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{869D28A7-2408-4807-AFBF-3F984E6D21BC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {07A91A84-727E-4E12-8EE6-DD82E1CCC579}
+	EndGlobalSection
+EndGlobal

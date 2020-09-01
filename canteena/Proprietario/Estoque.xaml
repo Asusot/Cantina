@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="canteena.Proprietario.Estoque">
+    <Grid BackgroundColor="#ffb74d">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <BoxView Grid.Row="1"
+                 Grid.ColumnSpan="3"
+                 Color="Red" />
+        <Label Text="ESTOQUE" FontSize="Title" Grid.Column="1" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center"
+               />
+        <BoxView Grid.Row="2"
+                 Grid.ColumnSpan="3"
+                 Color="Blue" />
+    </Grid>
+</ContentPage>

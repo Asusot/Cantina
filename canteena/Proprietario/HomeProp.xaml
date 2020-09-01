@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="canteena.Proprietario.HomeProp">
+    <Grid BackgroundColor="#ffb74d">
+
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Button Text="Fluxo de Caixa" Clicked="Btn_Fluxo" BackgroundColor="#ffa726" TextColor="White" VerticalOptions="Start" Grid.Row="1"/>
+
+        <Button Text="Pedidos" Clicked="Btn_Pedidos" BackgroundColor="#ffa726" TextColor="White" VerticalOptions="Start" Grid.Row="2"/>
+
+        <Button Text="Estoque" Clicked="Btn_Estoque" BackgroundColor="#ffa726" TextColor="White" VerticalOptions="Start" Grid.Row="3"/>
+
+        <Button Text="Clientes" Clicked="Btn_Clientes" BackgroundColor="#ffa726" TextColor="White" VerticalOptions="Start" Grid.Row="4"/>
+    </Grid>
+</ContentPage>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:proprietario="clr-namespace:canteena.Proprietario"
+       
+            x:Class="canteena.Proprietario.HomeProprietario">
+  <!--Pages can be added as references or inline-->
+    <proprietario:Clientes Title="Clientes" IconImageSource="cliente.png"></proprietario:Clientes>
+    <proprietario:Estoque Title="Estoque" IconImageSource="estoque.png"></proprietario:Estoque>
+    <proprietario:FluxoCaixa Title="Fluxo de caixa"  IconImageSource="fluxocaixa.png"></proprietario:FluxoCaixa>
+    <proprietario:Pedidos Title="Pedidos" IconImageSource="pedido.png"></proprietario:Pedidos>
+</TabbedPage>
