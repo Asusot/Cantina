@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="canteena.Page3">
+             x:Class="canteena.Proprietario.Pedidos">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Ainda não sei o que vai aqui rsrsrs"
+            <Label Text="Bem vindo aos seus pedidos"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>
