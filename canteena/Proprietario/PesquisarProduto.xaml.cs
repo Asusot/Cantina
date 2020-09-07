@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace canteena.Proprietario
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class CadastroProduto : TabbedPage
+    public partial class PesquisarProduto : ContentPage
     {
-        public CadastroProduto()
+        public PesquisarProduto()
         {
             InitializeComponent();
         }
