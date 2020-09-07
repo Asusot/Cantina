@@ -1,13 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="canteena.Proprietario.CadastroProduto"
-              Title="Cadastro Produto">
-   
-        <StackLayout>
-            <Image x:Name="imgFoto"/>
-            <Button Text="Tirar Foto" Clicked="Button_Clicked"/>
-            <Button x:Name="btnSelecionarImagem" Text="Selecionar uma imagem" Clicked="btnSelecionarImagem_Clicked"/>
-        </StackLayout>
-   
-</ContentPage>
+             xmlns:proprietario="clr-namespace:canteena.Proprietario" 
+             x:Class="canteena.Proprietario.CadastroProduto">
+  <!--Pages can be added as references or inline-->
+    <proprietario:InserirProduto Title="Inserir"></proprietario:InserirProduto>
+    <proprietario:ExcluirProduto Title="Excluir"></proprietario:ExcluirProduto>
+    <proprietario:PesquisarProduto Title="Pesquisar"></proprietario:PesquisarProduto>
+</TabbedPage>

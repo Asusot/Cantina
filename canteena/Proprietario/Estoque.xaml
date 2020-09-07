@@ -4,27 +4,33 @@
              x:Class="canteena.Proprietario.Estoque">
     <ContentPage.Content>
         <StackLayout>
+            <Grid >
+                <Button BackgroundColor="#f44336"   TextColor="#ede7f6" Text="Remover" FontAttributes="Bold" CornerRadius="5" HorizontalOptions="EndAndExpand" Margin="5" />
+                <Button BackgroundColor="#f44336"  TextColor="#ede7f6" Text="Remover" FontAttributes="Bold" CornerRadius="5"  HorizontalOptions="Center" Margin="5,3,2,4" />
+
+
+            </Grid>
             <ListView x:Name="lv1">
                 <ListView.ItemTemplate>
+                  
                     <DataTemplate>
                         <ViewCell>
                             <StackLayout Orientation="Horizontal">
                                 <Image Source="{Binding ImgUrl}" />
-                                <StackLayout HorizontalOptions="StartAndExpand">
+                                <StackLayout HorizontalOptions="StartAndExpand" Spacing="10">
                                     <Label Text="{Binding Nome}" TextColor="Black"/>
                                     <Label Text="{Binding Valor}" TextColor="Gray"/>
                                 </StackLayout>
-                                <RelativeLayout>
-                                    <Button BackgroundColor="Red" TextColor="Blue" Text="Remover" FontAttributes="Bold" Padding="3" />
-
-                                </RelativeLayout>
+                                <StackLayout >
+                                    <Button BackgroundColor="#f44336"  TextColor="#ede7f6" Text="Remover" FontAttributes="Bold" CornerRadius="5" />
+                                </StackLayout>
                             </StackLayout>
                             
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
-            <Button Text="Cadastrar produto" HorizontalOptions="Center" VerticalOptions="FillAndExpand" CornerRadius="20" Clicked="BtnCadastroItem" BackgroundColor="#ffa726" TextColor="White" HeightRequest="40"/>
+            <Button Text="Cadastrar produto" HorizontalOptions="Center" VerticalOptions="FillAndExpand" CornerRadius="20" Clicked="BtnCadastroItem" BackgroundColor="#ffa726" TextColor="White" HeightRequest="40" Margin="14"  />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
