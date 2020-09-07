@@ -4,7 +4,7 @@
              xmlns:proprietario="clr-namespace:canteena.Proprietario" 
              x:Class="canteena.Proprietario.CadastroProduto">
   <!--Pages can be added as references or inline-->
-    <proprietario:InserirProduto Title="Inserir"></proprietario:InserirProduto>
-    <proprietario:ExcluirProduto Title="Excluir"></proprietario:ExcluirProduto>
-    <proprietario:PesquisarProduto Title="Pesquisar"></proprietario:PesquisarProduto>
+    <proprietario:InserirProduto IconImageSource="add.png" Title="Adicionar"></proprietario:InserirProduto>
+    <proprietario:ExcluirProduto IconImageSource="delete.png" Title="Excluir"></proprietario:ExcluirProduto>
+    <proprietario:PesquisarProduto IconImageSource="search.png" Title="Pesquisar"></proprietario:PesquisarProduto>
 </TabbedPage>
