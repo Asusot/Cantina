@@ -64,7 +64,7 @@ namespace canteena.Proprietario
 
         private async void BtnCadastroItem(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new MenuDetalhe());
+            await Navigation.PushAsync(new CadastroProduto());
         }
     }
 }
